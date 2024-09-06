@@ -1,6 +1,5 @@
-import './App.css';
-import './Selection.js';
-
+import Selection from "./Selection"; 
+import Generate_op from "./Generate_op";
 function App() {
   return (
     <div className="App">
@@ -11,6 +10,7 @@ function App() {
       A journey across the lanes of india, bringing you the most famous delicacies of each state
      </h2>
      <Selection/>
+     <Generate_op/>
     </div>
   );
 }
