@@ -1,3 +1,6 @@
+A simple React application which lists top 5 dishes of the selected Indian state.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -45,26 +48,19 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ ## To run using docker
+ Run
+ 1. docker build -t discover-palate:1.0 .
+2. docker run  -d -p 3000:3000 discover-palate:1.0
+3. Open localhost:3000 in your browser
+  To stop run-
+4. docker stop container id
 
-### Analyzing the Bundle Size
+![image](https://github.com/user-attachments/assets/f9092a28-3b6f-4df4-9103-58316e7015ff)
+![image](https://github.com/user-attachments/assets/99f1b508-03c7-474a-a33f-b0ea29b523c0)
+![image](https://github.com/user-attachments/assets/58bd2ffb-18cd-4bb1-869b-cf37dcfd79c3)
+![image](https://github.com/user-attachments/assets/923d899b-bafd-4031-9124-a8d33bb132b7)
+![image](https://github.com/user-attachments/assets/5d7a07bf-84a7-4462-b64f-9ca333f2e130)
+![image](https://github.com/user-attachments/assets/35ae7685-e907-4f6d-9964-1f1e52085345)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
